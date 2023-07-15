@@ -1,0 +1,77 @@
+html, body {
+    background-color: cadetblue;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px, 50px, 75px, 100px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 15;
+    padding: 15;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: .5em;
+    color: midnightblue;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: .3em;
+    color: darkblue;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+a {
+    color: darkgreen;
+    font-size: 1.3em;
+}
+
+a:hover {
+    color: darkgreen;
+    font-size: 1.3em;
+}
+
+aside {
+	padding: 2em;
+	background:rgb(0, 108, 68);
+	color: white;
+	margin-bottom: 2em;
+}
+
+footer {
+	border-top: 2px solid black;
+	text-align: center;
+	font-size: .9em;
+	line-height: 2em;
+	margin-top: 2em;
+}
+
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 2px solid black;
+}
+
+.flowRight {
+	float: middle;
+}
