@@ -1,0 +1,163 @@
+html, body {
+    background-color: cadetblue;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px, 50px, 75px, 100px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 15;
+    padding: 15;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: .5em;
+    color: midnightblue;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: .3em;
+    color: darkblue;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+
+ul {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 2;
+  background: green;
+}
+
+ul a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em;
+  color: white;
+  font-size: 1.4em;
+}
+
+footer {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+footer a {
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 1.4em;
+}
+
+
+ul a:hover {
+    background: darkgreen;
+}
+
+@media all and (max-width: 900px) {
+  ul {
+    justify-content: space-around;
+  }
+  
+}
+
+@media all and (max-width: 600px) {
+  ul {
+    flex-flow: column wrap;
+    padding: 2;
+  }
+  
+  ul a {
+    padding: 5px;
+    text-align: center;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  ul li: last-of-type a {
+    border-bottom: none;
+  }
+}
+
+aside {
+	padding: 2em;
+	background:rgb(0, 108, 68);
+	color: white;
+	margin-bottom: 3em;
+}
+
+
+.work {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 5px;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
