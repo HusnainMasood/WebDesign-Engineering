@@ -1,0 +1,116 @@
+/* Color Palette
+# - #bccad6
+# - #8d9db6
+# - #667292
+# - #daebe8
+
+*/
+
+/* Global styles 
+------------------------------------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.contact-info a{
+  padding: 10px; 
+  display: inline-block;
+}
+
+.column-narrow {
+  width: 30%; 
+  float: left; 
+  padding-right: 3%; 
+  min-height: 175px;
+}
+
+.column-wide {
+  width: 70%; 
+  float: left; 
+  min-height: 225px;
+}
+
+body {
+    background: #87bdd8;
+    margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  color: rgb(0, 57, 62);
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  color: rgb(0, 81, 38);
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Vollkorn', serif;
+  font-weight: lighter;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.profile-img {
+  border-radius: 50%; 
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+  background: #bccad6;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  margin: 0;
+}
+
+footer {
+  background: #8d9db6;
+  text-align: center
+}
+
+
+/* Work Experience
+------------------------------------*/
+section {
+  background: #667292;
+}
+
+
+/* Education
+------------------------------------*/
+.highlighted {
+  background: #daebe8
+}
